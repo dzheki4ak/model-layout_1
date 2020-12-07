@@ -1,0 +1,64 @@
+@import 'header.scss';
+@import 'footer.scss';
+@import 'headline.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'tips.scss';
+@import 'audience.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+* {
+     box-sizing: border-box;
+}
+html {
+     font-family: 'Work Sans', sans-serif;
+     font-size: 16px;
+     color: #2d292d;
+}
+
+.page {
+     width: 100%;
+     overflow-x: hidden;
+}
+
+.action-button {
+     background-color: #3040C4;
+     color: #fff;
+     height: 48px;
+     font-size: 18px;
+     font-weight: 700;
+     border-radius: 2px;
+     border: none;
+     width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+     .page {
+          width: 1400px;
+          margin: auto;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+     }    
+     .action-button {
+          width: 160px;
+     }
+
+     .hide_desktop {
+          display: none;
+     }
+     
+}
+
+@media screen and (max-width: 399px) {
+     .hide_mobile {
+          display: none;
+     }
+}
+
+
+// .action-button__text {
+//      margin: 17px 28px 18px;
+// }
