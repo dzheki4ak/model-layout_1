@@ -757,6 +757,14 @@
     width: 250px;
     margin: 0 20px 33px;
   }
+
+  .user-card:hover {
+    background-color: #3141C5;
+  }
+
+  .user-card:hover > .user-card__caption {
+    color: #fff;
+  }
 }
 /**********************************************************************/
 @media screen and (min-width: 400px) {
@@ -831,6 +839,14 @@
     border-radius: 8px;
   }
 
+  .user-card__caption {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #2B292D;
+  }
+
   .user-card:first-child {
     margin-left: 0;
   }
@@ -838,6 +854,14 @@
   .user-card__image {
     max-width: 100%;
     margin: 22px auto;
+  }
+
+  .user-card:hover {
+    background-color: #3141C5;
+  }
+
+  .user-card:hover > .user-card__caption {
+    color: #fff;
   }
 }
 * {
