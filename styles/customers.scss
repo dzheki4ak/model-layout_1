@@ -8,14 +8,14 @@
 }
 
 .customers__item {
-     height: 94px;
-     width: 107px; 
-     border-bottom: 1px solid #e3e3e3;
-     border-right: 1px solid #e3e3e3;
      display: flex;
      justify-content: center;
      align-items: center;
      flex: 1;
+     height: 94px;
+     width: 107px; 
+     border-bottom: 1px solid #e3e3e3;
+     border-right: 1px solid #e3e3e3;
 }
 
 .customers__item:last-child {
@@ -29,14 +29,14 @@
 
 @media screen and (min-width: 400px) {
      .customers {
-          padding-top: 30px;
-          padding-bottom: 106px;
-          width: 1140px;
-          margin: auto;
           display: flex;
           justify-content: space-between;
           align-items: center;
           flex-direction: row;
+          margin: auto;
+          padding-top: 30px;
+          padding-bottom: 106px;
+          width: 1140px;
      }
 
      .customers__row {

@@ -1,7 +1,7 @@
 .footer {
      display: flex;
-     margin-top: auto;
      flex-direction: column;
+     margin-top: auto;
 }
 
 .about-company {
@@ -10,40 +10,39 @@
 
 .footer__description {
      display: none;
+     margin-top: 26px;
      line-height: 26px;
      font-size: 18px;
-     margin-top: 26px;
      width: 360px;
      color: #2b292d;
      opacity: 0.6;
 }
 
 .footer__navigation {
+     margin-top: 30px;
      font-size: 14px;
      line-height: 22px;
-     margin-top: 30px;
-
 }
 
 @media screen and (min-width: 400px) {
      .footer__navigation {
-          line-height: 50px;
           width: 1140px;
           margin: 0 auto;
+          line-height: 50px;
      }
 }
 
 .footer__navigation_item {
+     margin-right: 22px;
      text-decoration: none;
      color: #2b292d;
      opacity: 0.6;
-     margin-right: 22px;
 }
 
 .download {
      display: flex;
-     margin: 25px 15px 0;
      justify-content: center;
+     margin: 25px 15px 0;
 }
 
 .downloads__item {
@@ -51,9 +50,9 @@
 }
 
 .additional-navigation {
-     margin: 0 15px;
      display: flex;
      flex-direction: column;
+     margin: 0 15px;
 }
 
 @media screen and (min-width: 400px) {
@@ -82,37 +81,37 @@
 }
 
 .nav-links__title {
+     margin: 0;
      font-weight: bold;
      font-size: 22px;
      line-height: 28px;
      color: #2B292D;
-     margin: 0;
 }
 
 .nav-links__list {
+     padding: 0;
+     margin: 0;
+     margin-top: 18px;
      list-style-type: none;
      font-size: 18px;
      line-height: 30px;
      color: #2b292d;
      opacity: 0.6;
-     padding: 0;
-     margin: 0;
-     margin-top: 18px;
 }
 
 .footer__useful_links {
      display: flex;
-     margin: 0;
      flex-direction: column;
+     margin: 0;
 }
 
 @media screen and (min-width: 400px) {
      .footer__useful_links {
           flex-direction: row;
           display: flex;
+          margin: 0 auto;
           width: 1140px;
           height: 338px;
-          margin: 0 auto;
 
      }
 }
@@ -126,9 +125,9 @@
 @media screen and (min-width: 400px) {
      .footer__links {
           flex-direction: row;
+          align-items: center;
           width: 1140px;
           margin: 0 auto;
-          align-items: center;
           height: 50px;
      }
 
@@ -145,12 +144,12 @@
 }
 
 .footer-line {
+     margin: 0;
+     margin-top: 40px;
      border: none;
      border-bottom: 1px solid #2b292d;;
      width: 100%;
      opacity: 0.1;
-     margin: 0;
-     margin-top: 40px;
 }
 
 .social-links {
@@ -179,11 +178,11 @@
 }
 
 .logo-vertical__name {
+     text-align: center;
+     margin-top: 20px;
      font-weight: 700;
      font-size: 20px;
      line-height: 25px;
-     text-align: center;
-     margin-top: 20px;
 }
 
 .logo-vertical__description {

@@ -4,12 +4,16 @@
 }
 
 .header {
-     height: 64px;
-     width: 100%;
-     background-color: #fff;
      display: flex;
      align-items: center;
      padding-left: 15px;
+     height: 64px;
+     width: 100%;
+     background-color: #fff;
+}
+
+.headline {
+     padding-bottom: 36px;
 }
 
 .navigation {
@@ -33,17 +37,15 @@
      width: 18px;
      height: 13px;
      display: inline-block;
-     background-image: url('../img/shape-btn.png'); 
+     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png); 
 }
 
-
-
 .nav__item {
+     margin-left: 50px;
      color:  #2B292D;
      text-decoration: none;
      line-height: 25px;
      font-size: 18px;
-     margin-left: 50px;
 }
 
 .nav__item_selected {
@@ -55,11 +57,11 @@
 }
 
 .nav__item_dropdown {
-     background-image: url(img/arrow.png);
+     margin-left: 11px;
+     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
      display: inline-block;
      height: 5px;
      width: 8px;
-     margin-left: 11px;
 }
 
 .logo {
